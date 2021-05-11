@@ -4,11 +4,21 @@
   "description": "First Backend with Node JS",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "DEBUG=app:* nodemon index",
+    "start": "NODE_ENV=production mode index"
   },
   "author": "Hector Salazar <salaxerd@gmail.com>",
   "license": "MIT",
   "dependencies": {
     "moment": "2.29.1"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Salaxer/Backend-Node.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Salaxer/Backend-Node/issues"
+  },
+  "homepage": "https://github.com/Salaxer/Backend-Node#readme"
 }
